@@ -1,0 +1,19 @@
+body {
+    background-image: url(img/pizza1.jpeg);
+    background-color: rgb(85, 89, 96);
+    background-blend-mode:soft-light;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+}
+
+.jumbotron 
