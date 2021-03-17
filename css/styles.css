@@ -16,4 +16,16 @@ h1 {
     font-weight: bold;
 }
 
-.jumbotron 
+.jumbotron {
+    background-color: rgb(103, 2, 2);
+    max-height: auto;
+    padding: 3px;
+}
+
+.navbar {
+    
+}
+
+.card {
+    background-color: white;
+}
