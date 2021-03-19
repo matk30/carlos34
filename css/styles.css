@@ -2,7 +2,7 @@ body {
     background-image: url(img/pizza1.jpeg);
     background-color: rgb(85, 89, 96);
     background-blend-mode:soft-light;
-    background-size: 1000px;
+    background-size: 1200px;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -11,21 +11,29 @@ body {
     color: white;
 }
 
-h1 {
-    color: black;
+h4 {
+    color: white;
+    font-style: italic;
     font-weight: bold;
 }
 
 .jumbotron {
     background-color: rgb(103, 2, 2);
     max-height: auto;
-    padding: 3px;
-}
-
-.navbar {
-    
+    padding: 1px;
+    text-align: center;
 }
 
 .card {
-    background-color: white;
+    background-color: rgba(235, 227, 227, 0.7);
+    border: black 5px solid;
+    text-align: center;
+    color: black;
+    margin: 5px;
+}
+
+.footer {
+    background-image: linear-gradient(rgb(7, 7, 7), rgb(100, 97, 92), rgb(150, 150, 146));
+    padding: 10px 0;
+    text-align: center;
 }

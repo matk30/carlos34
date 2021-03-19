@@ -1,103 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- To do: 
+-Menu <Page></Tab>
+-About Us <section>
+-Footer -->
+<!-- -Add Modal for shopping cart -->
+
 <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" /> -->
 
-    <!-- Bootstrap CDN -->
-    <!-- Latest compiled and minified CSS -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- Optional theme -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
 
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 
-    
+
     <title>Carlo's Pizza on 34</title>
 </head>
 
 <body>
-    <header class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col col-sm-3">
-                    <h2>Carlo's Pizza on Rt 34</h2>
-                    <p>The Best Pizza in Central New Jersey</p>
-                </div>
-
-                <div class="col col-sm-5">
-                    <p>Hours:</br> Monday-Sunday: 11:00am-10:30pm</p>
-                </div>
-
-                <div class="col col-sm-4">
-                    <p>Cart</p>
-                </div>
-                
-            </div>
-        </div>
-        
-    </header>
-    
-
- <!-- Add navbar  -->
-    <nav class="navbar navbar-expand-sm">
-        <a class="navbar-brand" href="#">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm sticky-top">
+        <a class="navbar-brand" href="#"><i class="fas fa-pizza-slice"></i>Home</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
-<!-- Menu options in navbar -->
-        <div class="collapse navbar-collapse" id="#">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="#">Menu</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Appetizers</a>
-                        <a class="dropdown-item" href="#">Pizzas</a>
-                        <a class="dropdown-item" href="#">Pasta</a>
-                        <a class="dropdown-menu" href="#">Cluck-U Chicken</a>
-                    </div>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-nav">
+                    <a href="#" class="nav-link">Order</a>
+                </li>
+                <li class="navbar-nav">
+                    <a href="#" class="nav-link">Menu</a>
+                </li>
+                <li class="navbar-nav">
+                    <a href="#" class="nav-link">Promotions</a>
+                </li>
+                <li class="navbar-nav">
+                    <a href="/aboutus.html" class="nav-link">About Us</a>
+                </li>
+                <li class="navbar-nav">
+                    <a href="#" class="nav-link">Contact Us</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <!-- Card 1 - Menu -->
-                <div class="card">
-                    <img class="card-img-top" src="..." alt="Preview of Menu">
-                    <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Click here to see full menu!</p>
-                        <a href="#" class="btn btn-primary btn-outline-light">Menu</a>
-                    </div>
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Carlo's Pizza </br> on Rt 34</h2>
                 </div>
 
-                <!-- Card 2 - Promotions -->
-                <div class="card">
-                    <img class="card-img-top" src="..." alt="Preview of Menu">
-                    <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Click here to see full menu!</p>
-                        <a href="#" class="btn btn-primary btn-outline-light">Menu</a>
-                    </div>
+                <div class="col-6">
+                    <h4>The Best Pizza in Central New Jersey!</h4>
+                    <p>Hours:</br> Monday-Sunday: 11:00am-10:30pm</p>
                 </div>
-                
-                <!-- Card 3 - Location/Map -->
+
+                <div class="col">
+                    <h1><i class="fas fa-shopping-cart"></i></h1>
+                    <p>Cart</p>
+                    <h3>
+                        <a href="mailto: hello@carlos34.com"><i class="fas fa-at"></i></a>
+                        <a href="https://www.facebook.com/pages/Carlos-Pizza/505230069579125?ref=hl"><i
+                                class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="tel:605-475-6968"><i class="fas fa-phone-alt"></i></a>
+                    </h3>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <!-- Card 1 - Menu -->
+            <div class="col col-sm-4">
                 <div class="card">
-                    <img class="card-img-top" src="..." alt="Preview of Menu">
+                    <img class="card-img-top" src="https://picsum.photos/200/" alt="Preview of Menu" />
                     <div class="card-body">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">Click here to see full menu!</p>
@@ -105,30 +102,97 @@
                     </div>
                 </div>
             </div>
+            <!-- Card 2 - Promotions -->
+            <div class="col col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://picsum.photos/200" alt="Preview of Menu" />
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Click here to see full menu!</p>
+                        <a href="#" class="btn btn-primary btn-outline-light">Menu</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 - Location/Map -->
+            <div class="col col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://picsum.photos/200//" alt="Preview of Menu" />
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Click here to see full menu!</p>
+                        <a href="#" class="btn btn-primary btn-outline-light">Menu</a>
+                    </div>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat assumenda ea sit nulla dolorum quibusdam
+                rem sint sequi. Enim facilis dolorem ea nobis cumque molestiae molestias. Cum ex quaerat voluptate!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, voluptatum qui, illum nesciunt
+                voluptatibus cupiditate iste temporibus deleniti optio, sunt nihil natus deserunt culpa commodi! Amet a
+                itaque aliquid consectetur!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, voluptatum qui, illum nesciunt
+                voluptatibus cupiditate iste temporibus deleniti optio, sunt nihil natus deserunt culpa commodi! Amet a
+                itaque aliquid consectetur!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, voluptatum qui, illum nesciunt
+                voluptatibus cupiditate iste temporibus deleniti optio, sunt nihil natus deserunt culpa commodi! Amet a
+                itaque aliquid consectetur!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, voluptatum qui, illum nesciunt
+                voluptatibus cupiditate iste temporibus deleniti optio, sunt nihil natus deserunt culpa commodi! Amet a
+                itaque aliquid consectetur!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, voluptatum qui, illum nesciunt
+                voluptatibus cupiditate iste temporibus deleniti optio, sunt nihil natus deserunt culpa commodi! Amet a
+                itaque aliquid consectetur!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, voluptatum qui, illum nesciunt
+                voluptatibus cupiditate iste temporibus deleniti optio, sunt nihil natus deserunt culpa commodi! Amet a
+                itaque aliquid consectetur!</p>
         </div>
     </div>
-    
 
-        <!-- Add hours, contact and social media here -->
-    <footer>
 
+    <!-- Add hours, contact and social media here -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <span>Hours:</br> Monday-Sunday: 11:00am-10:30pm</span>
+                </div>
+                <div class="col">
+                    <span>Menu</span>
+                </div>
+                <div class="col">
+                    <span>Call us!</span>
+                </div>
+                <div class="col">
+                    <span>Email us!</span>
+                </div>
+            </div>
+        </div>
     </footer>
-        
-
- <!-- Shopping cart modal -->
-
- <!-- Add cards for location menu (use tab pane) and promotions -->
 
 
+    <!-- Shopping cart modal -->
+
+    <!-- Add cards for location menu (use tab pane) and promotions -->
 
 
-    jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"> </script>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="node_modules/jquery/dist/jquery.slim.min.js"> </script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js">  </script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js">  </script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js">  </script> -->
 
-    <!-- Latest compiled and minified JavaScript
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/070cefb6b0.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
