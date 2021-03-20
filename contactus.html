@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- To do: 
+-Menu <Page></Tab>
+-About Us <section>
+-Footer -->
+<!-- -Add Modal for shopping cart -->
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" /> -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Headland+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <title>Carlo's Pizza on 34</title>
+</head>
+
+<body>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm sticky-top">
+        <a class="navbar-brand" href="index.html"><i class="fas fa-pizza-slice"></i>Home</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-nav">
+                    <a href="#" class="nav-link">Order</a>
+                </li>
+                <li class="navbar-nav">
+                    <a href="menu.html" class="nav-link">Menu</a>
+                </li>
+                <li class="navbar-nav">
+                    <a href="promotions.html" class="nav-link">Promotions</a>
+                </li>
+                <li class="navbar-nav">
+                    <a href="/aboutus.html" class="nav-link">About Us</a>
+                </li>
+                <li class="navbar-nav">
+                    <a href="#" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4">
+                <h5>Our Address</h5>
+                <address>
+                    162 Route 34<br />
+                    Matawan, NJ 07747<br />
+                    U.S.A.
+                </address>
+            </div>
+            <div class="col">
+                <a role="button" class="btn btn-link" href="tel:+1605-475-6968"> <i class="fa fa-phone"></i>
+                    1-605-475-6968 </a> <br />
+                <a role="button" class="btn btn-link" href="mailto:hello@carlos34.com"> <i
+                        class="fa fa-envelope-o"></i>hello@carlos34.com</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h2>Contact us about catering your special event!</h2>
+                <hr />
+            </div>
+            <div class="col-md-10">
+                <form>
+                    <div class="form-group row">
+                        <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstName" name="firstName"
+                                placeholder="First Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastName" name="lastName"
+                                placeholder="Last Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="areaCode" class="col-md-2 col-form-label">Telephone</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areaCode" name="areaCode"
+                                placeholder="Area code" />
+                        </div>
+                        <div class="col-7">
+                            <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="email" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col">
+                            How should we reach out to you?
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="contactPhone" name="contactRadios"
+                                    value="phone" />
+                                <label for="contactPhone" class="form-check-label">Phone</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="contactEmail" name="contactRadios"
+                                    value="no" />
+                                <label for="contactEmail" class="form-check-label">Email</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="noContact" name="contactRadios"
+                                    value="noContact" />
+                                <label for="noContact" class="form-check-label">N/A</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="message" class="col-md-2 col-form-label">Your Message</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="message" name="message" rows="8"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                        <p class="offset-md-4">You will hear from us within 48 hours! </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <span>Hours:</br> Monday-Sunday 11:00am-10:30pm</span>
+                </div>
+                <div class="col">
+                    <a href="menu.html">
+                        <span>Menu</span>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="tel:605-475-6968">
+                        <span>Call us!</span>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="mailto: hello@carlos34.com">
+                        <span>Email us!</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="node_modules/jquery/dist/jquery.slim.min.js"> </script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js">  </script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js">  </script> -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/070cefb6b0.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

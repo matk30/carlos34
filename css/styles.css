@@ -7,7 +7,8 @@ body {
     background-position: center;
     background-attachment: fixed;
 
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Headland One', serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
@@ -27,8 +28,8 @@ h4 {
 }
 
 .jumbotron .img {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 300px;
 }
 
 .card {
@@ -36,12 +37,18 @@ h4 {
     border: black 5px solid;
     text-align: center;
     color: black;
-    margin: 5px;
-    height: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
 }
 
 .footer {
-    background-image: linear-gradient(rgb(7, 7, 7), rgb(100, 97, 92), rgb(150, 150, 146));
+    background-image: linear-gradient(rgb(7, 7, 7), rgb(168, 160, 145), rgb(221, 221, 215));
     padding: 10px 0;
     text-align: center;
     margin-top: 25px;
@@ -61,7 +68,7 @@ img {
 }
 
 .tab-content{
-    background-color: rgb(120, 117, 117);
+    background-color: rgb(120, 117, 117, .5);
     border-color: white;
     margin: 5px;
     padding: 10px;
