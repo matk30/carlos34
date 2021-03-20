@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- To do: 
+-Menu <Page></Tab>
+-About Us <section>
+-Footer -->
+<!-- -Add Modal for shopping cart -->
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" /> -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+
+    <title>Carlo's Pizza on 34</title>
+</head>
+
+<body>
+<!-- Navbar  -->
+<nav class="navbar navbar-dark bg-dark navbar-expand-sm sticky-top">
+    <a class="navbar-brand" href="index.html"><i class="fas fa-pizza-slice"></i>Home</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ml-auto">
+            <li class="navbar-nav">
+                <a href="#" class="nav-link">Order</a>
+            </li>
+            <li class="navbar-nav">
+                <a href="menu.html" class="nav-link">Menu</a>
+            </li>
+            <li class="navbar-nav">
+                <a href="promotions.html" class="nav-link">Promotions</a>
+            </li>
+            <li class="navbar-nav">
+                <a href="/aboutus.html" class="nav-link">About Us</a>
+            </li>
+            <li class="navbar-nav">
+                <a href="#" class="nav-link">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+
+    <!-- menu -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ul class="nav nav-tabs bg-light">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#appetizers" role="tab" data-toggle="tab">Appetizers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#salads" role="tab" data-toggle="tab">Salads</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gourmetPizza" role="tab" data-toggle="tab">Gourmet Pizza</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#brickOvenPizza" role="tab" data-toggle="tab">Brick Oven Pizza</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#beverages" role="tab" data-toggle="tab">Beverages</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade show active" id="appetizers">
+                        <p class="bold">Small Hand-Cut Fries</p>
+                        <p>$5.50</p>
+                        <p class="bold">Large Hand-Cut Fries</p>
+                        <p>$7.50</p>
+                        <p class="bold">Sweet Potato Fries</p>
+                        <p>$5.50</p>
+                        <p class="bold">Chicken Tenders</p>
+                        <p>$6.50</p>
+                        <p class="bold">Cheese Wedges</p>
+                        <p>$5.50</p>
+                        <p class="bold">Beer Battered Mushrooms</p>
+                        <p>$5.50</p>
+                        <p class="bold">Onion Rings</p>
+                        <p>$4.50</p>
+                        <p class="bold">Breaded Zucchini Planks</p>
+                        <p>$5.50</p>
+                        <p class="bold">Cheesy Bread Sticks</p>
+                        <p>$5.50</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="salads">
+                        <p class="bold">Southwest Salad</p>
+                        <p>$6.75</p>
+                        <p class="bold">Asian Sesame</p>
+                        <p>$9.50</p>
+                        <p class="bold">Greek</p>
+                        <p>$8.50</p>
+                        <p class="bold">Caesar</p>
+                        <p>$8.50</p>
+                        <p class="bold">Grilled Seafood Salad</p>
+                        <p>$11.75</p>
+                        <p class="bold">Steak Gorgonzola Salad</p>
+                        <p>$10.50</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="gourmetPizza">
+                        <p><strong>All gourmet pies are 18"</strong></p>
+                        <p class="bold">BBQ Pizza</p>
+                        <p>$21.75</p>
+                        <p class="bold">Broccoli and Chicken</p>
+                        <p>$22.75</p>
+                        <p class="bold">Greek</p>
+                        <p>$22.75</p>
+                        <p class="bold">Hawaiian</p>
+                        <p>$23.75</p>
+                        <p class="bold">Mediterranean</p>
+                        <p>$25.75</p>
+                        <p class="bold">Buster</p>
+                        <p>$25.75</p>
+                        <p class="bold">Quesadilla Pizza</p>
+                        <p>$21.75</p>
+                        <p class="bold">Brooklyn Style Pizza</p>
+                        <p>$22.50</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="brickOvenPizza">
+                        <p class="bold">Pierogi Pizza</p>
+                        <p>$15.75 - $18.50 - $21.75</p>
+                        <p class="bold">Margherita</p>
+                        <p>$15.25 - $19.50 - $22.75</p>
+                        <p class="bold">Spicy Pizza</p>
+                        <p>$16.75 - $20.25 - $22.75</p>
+                        <p class="bold">The King Pizza</p>
+                        <p>$15.75 - $20.25 - $23.75</p>
+                        <p class="bold">Buffalo Chicken Pizza</p>
+                        <p>$18.25 - $20.25 - $25.75</p>
+                        <p class="bold">Cheese Lover Pizza</p>
+                        <p>$19.25 - $22.75 - $25.75</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="beverages">
+                        <p class="bold">Coors</p>
+                        <p>$3.50</p>
+                        <p class="bold">Budweiser</p>
+                        <p>$3.50</p>
+                        <p class="bold">Pabst Blue Ribbon</p>
+                        <p>$3.50</p>
+                        <p class="bold">Yuengling</p>
+                        <p>$4.00</p>
+                        <p class="bold">Green Lake Organic Ale</p>
+                        <p>$4.50</p>
+                        <p class="bold">Guinness</p>
+                        <p>$3.25</p>
+                        <p class="bold">Sam Adams</p>
+                        <p>$2.50</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <span>Hours:</br> Monday-Sunday </br> 11:00am-10:30pm</span>
+                </div>
+                <div class="col">
+                    <a href="menu.html">
+                        <span>Menu</span>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="tel:605-475-6968">
+                        <span>Call us!</span>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="mailto: hello@carlos34.com">
+                        <span>Email us!</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+  crossorigin="anonymous"></script>
+
+<script src="https://kit.fontawesome.com/070cefb6b0.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

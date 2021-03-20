@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- To do: 
--Menu <Page></Tab>
--About Us <section>
--Footer -->
-<!-- -Add Modal for shopping cart -->
-
 <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8" />
@@ -30,7 +24,32 @@
 </head>
 
 <body>
-    <!-- add navbar here -->
+    <!-- Navbar  -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm sticky-top">
+        <a class="navbar-brand" href="index.html"><i class="fas fa-pizza-slice"></i>Home</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-nav">
+                    <a href="#" class="nav-link">Order</a>
+                </li>
+                <li class="navbar-nav">
+                    <a href="menu.html" class="nav-link">Menu</a>
+                </li>
+                <li class="navbar-nav">
+                    <a href="promotions.html" class="nav-link">Promotions</a>
+                </li>
+                <li class="navbar-nav">
+                    <a href="/aboutus.html" class="nav-link">About Us</a>
+                </li>
+                <li class="navbar-nav">
+                    <a href="#" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <div class="container">
         <div class="row">
@@ -38,27 +57,38 @@
                 <div class="card">
                     <div class="card-body">
                         <h2 class="card-title">About Us</h2>
-                        <p class="card-text">For the best in authentic, made-to-order Italian-style pizzas, pastas and subs, look no further than Carlo's
-                            Pizza! We have the pizzas and pastas that you're craving, as well as appetizers, salads, dinners, calzones and
+                        <p class="card-text">For the best in authentic, made-to-order Italian-style pizzas, pastas and
+                            subs, look no further than Carlo's
+                            Pizza! We have the pizzas and pastas that you're craving, as well as appetizers, salads,
+                            dinners, calzones and
                             sandwiches.</p>
-                    
-                        <p class="card-text">Our hand-tossed pizzas are made fresh when you order them, and still hot from the oven when you pick them up or
-                            eat in the dining room. Our pastas are served with authentic sauces. Our heroes and subs are perfect for lunch
+
+                        <p class="card-text">Our hand-tossed pizzas are made fresh when you order them, and still hot
+                            from the oven when you pick them up or
+                            eat in the dining room. Our pastas are served with authentic sauces. Our heroes and subs are
+                            perfect for lunch
                             or dinner, and don't forget your party guests by ordering our "by-the-foot" subs!</p>
-                    
-                        <p class="card-text">A family-owned and operated pizzeria, Carlo's Pizza proudly serves the central New Jersey area. Our sauces and
-                            recipes have been handed down for generations, and are what make us one of the best pizzerias around. You can
+
+                        <p class="card-text">A family-owned and operated pizzeria, Carlo's Pizza proudly serves the
+                            central New Jersey area. Our sauces and
+                            recipes have been handed down for generations, and are what make us one of the best
+                            pizzerias around. You can
                             taste the difference!</p>
-                    
-                        <p class="card-text">Since we are family owned and operated, we can choose ingredients that are fresh and tasty, and pile them on as
-                            you like them. We only choose the most flavorful meats and cheeses for your eating enjoyment. Made to order,
-                            when you order, you will get the hottest pizza, the biggest sub, the best meal you've ever had... you will leave
+
+                        <p class="card-text">Since we are family owned and operated, we can choose ingredients that are
+                            fresh and tasty, and pile them on as
+                            you like them. We only choose the most flavorful meats and cheeses for your eating
+                            enjoyment. Made to order,
+                            when you order, you will get the hottest pizza, the biggest sub, the best meal you've ever
+                            had... you will leave
                             full, we guarantee it!</p>
-                    
-                        <p class="card-text">We can also offer catering, group, party and game-day specials to make your experience more unique. Dine in, or
-                            pick up your party platters, pizzas, 6-foot subs and more. You let us know what you need and we'll pile the
+
+                        <p class="card-text">We can also offer catering, group, party and game-day specials to make your
+                            experience more unique. Dine in, or
+                            pick up your party platters, pizzas, 6-foot subs and more. You let us know what you need and
+                            we'll pile the
                             fixings on for you.</p>
-                    
+
                         <p class="card-text">When you're hungry for authentic flavors, visit us at Carlo's Pizza!</p>
                     </div>
                 </div>
@@ -66,7 +96,43 @@
         </div>
     </div>
 
-    
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <span>Hours:</br> Monday-Sunday </br> 11:00am-10:30pm</span>
+                </div>
+                <div class="col">
+                    <a href="menu.html">
+                        <span>Menu</span>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="tel:605-475-6968">
+                        <span>Call us!</span>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="mailto: hello@carlos34.com">
+                        <span>Email us!</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/070cefb6b0.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
